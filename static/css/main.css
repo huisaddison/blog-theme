@@ -44,7 +44,7 @@ body {
 
 header {
   background-color: #40403F;
-  background-color: #00356B;
+  background-color: #10354C;
   height: 50px;
   line-height: 50px;
   padding: 0 1em;
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 125%;
 }
 h2, h3, h4, h5, h6 {
-    color: #00356B;
+    color: #10354C;
 }
 h1 {
   font-size: 2em;
