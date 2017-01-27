@@ -2,5 +2,11 @@
 Simple theme for my blog (powered by Pelican).
 
 The theme is heavily derived from
-[pelican-simplegrey](https://github.com/fle/pelican-simplegrey) at the moment,
-but it'll be updated with my own tweaks (simplegrey was last updated in 2015).
+[pelican-simplegrey](https://github.com/fle/pelican-simplegrey).  The only
+changes I have made are:
+* Change greys to blues
+* Tune the fonts to my preferences
+* Update the footer in `base.html` to reflect the current year and my heavy
+  reliance on [MathJax](https://www.mathjax.org/).
+
+More features will be added as the need arises.
