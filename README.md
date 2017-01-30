@@ -1,5 +1,5 @@
 # blog-theme
-Simple theme for my blog (powered by Pelican).
+Simple theme for my [blog](http://huisaddison.com/blog) (powered by Pelican).
 
 The theme is heavily derived from
 [pelican-simplegrey](https://github.com/fle/pelican-simplegrey).  The only
