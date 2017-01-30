@@ -12,6 +12,8 @@ changes I have made are:
   that this was an oversight in the original theme as the tags are delimited
   properly in `metadata.inc.html`.
 
-More features will be added as the need arises.
+More features will be added as the need arises.  Currently on my todo list:
+* Revamp `index.html` so it only shows a fixed amount of content from the
+  most recent post; and possibly show more than the most recent post
 
 ![http://huisaddison.com/blog](doc/img/blog.png)
