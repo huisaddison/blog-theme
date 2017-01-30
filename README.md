@@ -13,3 +13,5 @@ changes I have made are:
   properly in `metadata.inc.html`.
 
 More features will be added as the need arises.
+
+![http://huisaddison.com/blog](doc/img/blog.img)
