@@ -14,4 +14,4 @@ changes I have made are:
 
 More features will be added as the need arises.
 
-![http://huisaddison.com/blog](doc/img/blog.img)
+![http://huisaddison.com/blog](doc/img/blog.png)
