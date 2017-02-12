@@ -11,6 +11,8 @@ changes I have made are:
 * Fix `article_link.inc.html` so that tags are delimited by commas (strange
   that this was an oversight in the original theme as the tags are delimited
   properly in `metadata.inc.html`.
+* Tune the 'huisaddison/blog' header to link to my base website and the blog,
+  respectively.
 
 More features will be added as the need arises.  Currently on my todo list:
 * Revamp `index.html` so it only shows a fixed amount of content from the
