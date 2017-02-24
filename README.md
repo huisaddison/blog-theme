@@ -13,6 +13,8 @@ changes I have made are:
   properly in `metadata.inc.html`.
 * Tune the 'huisaddison/blog' header to link to my base website and the blog,
   respectively.
+* Insert the current year in the footer dynamically using datetime.
+* Grab jinja vars (?) for home site url, blog source, etc. from pelicanconf.
 
 More features will be added as the need arises.  Currently on my todo list:
 * Revamp `index.html` so it only shows a fixed amount of content from the
