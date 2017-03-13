@@ -16,14 +16,11 @@
 
       {% if loop.length  > 1 %}
         <div>
-          <h3>Latest posts</h3>
-          <ol class="archive">
+          <h2>Latest posts</h2>
       {% endif %}
     
     {% elif loop.index < 7 %}
-      <li>
-        {% include 'article_link.inc.html' %}
-      </li>
+        {% include 'article_summary.inc.html' %}
     {% endif %}
 
 {% endfor %}
