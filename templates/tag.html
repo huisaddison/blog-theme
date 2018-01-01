@@ -3,12 +3,16 @@
 
 {% block content %}
 
+<header>
 <h1>Post tagged: {{ tag }}</h1>
+</header>
 
+<section>
 {% for article in articles_page.object_list %}
   {% include 'article_summary.inc.html' %}
 {% endfor %}
 
 {% include 'pagination.inc.html' %}
+</section>
 
 {% endblock %}

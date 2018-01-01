@@ -3,12 +3,16 @@
 
 {% block content %}
 
+<header>
 <h1>Posts categorized under: {{ category }}</h1>
+</header>
 
+<section>
 {% for article in articles_page.object_list %}
   {% include 'article_summary.inc.html' %}
 {% endfor %}
 
 {% include 'pagination.inc.html' %}
+</section>
 
 {% endblock %}
