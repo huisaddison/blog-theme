@@ -1,7 +1,12 @@
 # blog-theme
 Simple theme for my [blog](http://huisaddison.com/blog) (powered by Pelican).
 
-The theme is heavily derived from
+## Changes January 2018
+* Revised entire theme to be way cleaner, and also mobile friendly-ish.
+  Though, a lot of features that I don't use may be broken.
+
+## Original changes
+The theme is heavily derived fro
 [pelican-simplegrey](https://github.com/fle/pelican-simplegrey).  The only
 changes I have made are:
 * Change greys to blues
@@ -16,8 +21,3 @@ changes I have made are:
 * Insert the current year in the footer dynamically using datetime.
 * Grab jinja vars (?) for home site url, blog source, etc. from pelicanconf.
 
-More features will be added as the need arises.  Currently on my todo list:
-* Revamp `index.html` so it only shows a fixed amount of content from the
-  most recent post; and possibly show more than the most recent post
-
-![http://huisaddison.com/blog](doc/img/blog.png)
