@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ HTML_LANG }}">	
 <head>
+    {% block head %}
 	<meta charset="utf-8"/>
 	<title>{% block title %}{{ SITENAME }}{%endblock%}</title>	
 	<meta name="author" content="{{ AUTHOR }}">
@@ -21,6 +22,7 @@
     {% if FEED_ALL_RSS %}
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
     {% endif %}
+    {% endblock %}
 </head>
 	
 <body>
